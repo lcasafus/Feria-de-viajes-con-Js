@@ -1,1 +1,157 @@
+body{
+    background-color: #f8f6f3;
+    margin: 0;
+    font-family:sans-serif
+}
 
+#titulo{
+    background-color: #FAE5D3;
+    text-align: center;
+    padding: 2rem 1rem;
+    color: #3E2723;
+}
+nav{/* En las etiquetas de nav daremos diseño al menú, ya que la idea es que esté menú este en todas las páginas en la misma posición, que sería en la parte superior derecha. */
+    display: block;
+    width: 100px;
+    height: 150px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100px;
+    
+}
+ nav ul{
+    list-style-type: none ;
+    margin: 0px;
+    padding: 0px;
+    border: 1px;
+    border-style: solid;
+    border-color: #ccc;
+}
+ul a{
+    color: #000;
+    text-decoration: none;
+    font-size: 0.9em;
+    display: block;
+    padding: 6px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #CCC;
+    background-color: #eaeaea;
+}
+ul a:hover{
+    color:darkcyan;
+    box-shadow: 0 0.1rem 0.4rem red;
+}
+ul{
+    text-align: left;
+}
+main{/* Todas las páginas tienen la misma idea de diseño, por lo que con esta etiqueta queremos darle diseño general a la vista de la página. */
+    max-width: 1000px;
+    margin: auto;
+    padding: 2rem;
+    background-color:white;
+    box-shadow:0 0 10px rgba(0,0,0,0.1) ;
+    border-radius: 10px
+}
+h1, h2, h3{
+    color:#3E2723 ;
+}
+img{
+    width: 50%;
+    border-radius: 10px;
+}
+.resalta{ /* Con esta regla lo que queremos hacer es que la etiqueta que tenga este atributo resalte a la demás información que tiene la página, dando un fondo diferente al de la página en general. */
+    background-color:#FFF0F3 ;
+    padding: 1rem;
+    border-left: 10px solid #FFE5E9;
+    border-radius: 5px;
+}
+.destinos{ /* Esta regla es para que las etiquetas que tienen este atributo tengan un fondo diferente, y destaque de todo el contenido de la página, además de quedar más llamativo dando a enterder que es lo más importante en la página */
+    background-color: #E6A57E;
+    width: 400px;
+    margin: 1rem auto;
+    border-radius: 0.5rem;
+    padding: 0.25rem 0;
+    cursor: pointer;
+    text-align: center;    
+    border: solid brown 2px;
+}
+
+.container{/* Con esta regla permite organizar los elementos hijos, como lo son los artículos horizontalmente como si fuera tarjetas. */
+    display: flex;
+    justify-content: space-between;
+    gap:20px;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+.oferta{/* Con esta regla determinados como van a ser las tarjetas, que se combinará con la regla de '.container' para organizarlas una al lado de la otra y poder visualizarla como tarjetas. */
+    background-color: #E6A57E;
+    border: solid brown 5px;
+    border-radius: 10px;
+    padding: 20px;
+    flex: 1;
+    min-width: 250px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    text-align: center;
+}
+footer{ /* Damos estilo al pie de página */
+  background-color:#F4B6C2;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+}
+footer a{
+    color: white;  
+}
+.formulario{ /* Damos estilo a los formularios. */
+    background-color: #D8BFAA;
+    border: #5C4033 double 4px;
+    padding: 10px;
+    width: 400px;
+    margin: 1px auto;
+
+}
+table{
+    width: 100%;
+    border-collapse: collapse; /* esto es para no tener separacion en los bordes */
+}
+th, td {
+    border: solid 1px #eee;
+    padding: 5px;
+
+}
+th{
+    background-color: #E6A57E;
+    color: white;
+    text-align: left;
+}
+tr:nth-child(even){/* se puede colocar odd o even, odd es para y even es impar y es para seleccionar que columnas va a seleccionar*/
+    background-color:#eee;
+}
+tr:hover{
+background-color: #aaa;
+}
+.enlaces{  /* Damos estilos a los enlaces */
+    background-color: #D8BFAA; 
+  border-left: 6px solid #C19A6B;
+  padding: 10px;
+  margin: 2rem 0;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.05);
+  }
+
+.enlaces a{
+    color: #e48951; 
+  text-decoration: none;
+}
+figcaption{ /* Con esto damos estilo al pie de las imágenes que hay en las diferentes páginas. */
+    font-size: 10px;
+    color: #5C4033;
+    margin: 0 0 1rem;
+}
+figcaption a{
+    text-decoration: none;
+    color: #e48951
+}
