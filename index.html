@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><!-- Todas las páginas tienen un diseño parecido y tienen la misma idea general en su diseño pero cambia el contenido. -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feria internacional de viajes 2025</title> <!-- Esta primera página indicará qué es la feria internacional de viaje, cuándo será y una breve introducción a las demás páginas. -->
+    <link rel="stylesheet" href="estilos.css"/>
+</head>
+<body>
+    <header id="titulo">
+        <h1>Feria internacional de viajes 2025</h1>
+        <h2> ¡Explora el mundo sin límites en la Feria Internaciona de Viajes 2025</h2>
+    </header>
+    <nav> <!-- En esta etiqueta podremos crear nuestro menú que nos permitirá viajar entre las diferentes páginas del sitio web. -->
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="destinos.html">Destinos</a></li>
+            <li><a href="eventos.html">Eventos</a></li>
+            <li><a href="ofertas.html">Ofertas</a></li>
+            <li><a href="Registro.html">Registro</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section> <!-- En esta seción indicaremos que es una fería y la fecha en la que supuestamente se dará este encuentro, donde utilizaremos etiquetas de titulo y parrafo como <h2> y <p> además de etiquetas de resaltado del texto como lo es <strong> -->
+            <article>
+                <h2>¿Qué es la Feria Internacional de viajes?</h2>
+                <p> La <strong>Feria internacional de Viajes 2025</strong> es el punto de encuentro de más grande para los amantes del turismo, las empresas del sector y quienes buscan inspiración para su próxima aventura. <br> Durante tres días, podrás descubrir cientos de destinos nacionales e internacionales, conocer a expertos del turismo y acceder a ofertas exclusivas que solo encontraras aquí.</p>
+                <ul>
+                    <li><strong>Fecha:</strong> 10 al 12 de noviemvre de 2025</li>
+                    <li><strong>Lugar:</strong> Bilbao Exhibtion Centre(BEC)-Bilbao España</li>
+                </ul>
+                <p> Ya seas un viajero experimentado, unas agencia o simplemente alguien que quiere descubrir el mundo, esta feria es el lugar donde tus sueños comienzan</p>
+            </article>
+        </section>
+        <section class="resalta"> <!-- En esta sección tratamos de motivar al púbico de asistir al evento, donde utilizaremos además de etiquetas de parrafo, etiquetas de lista desordenada como lo es <ul> y <li> además de añadir un atributo que le dará diseño por medio de css-->
+            <article>
+                <h2> ¿Por qué asistir?</h2>
+                <p> Participar en la Feria internacional de viajes te permite</p>
+                <ul>
+                    <li>Descubrir nuevos destinos.</li>
+                    <li>Aprovechar descuentos exclusivos.</li>
+                    <li>Conectarte con expertos.</li>
+                    <li>Aprender de los mejores.</li>
+                    <li>Ganar premios y experiencias.</li>
+                </ul>
+                <p><strong>La feria donde cada visitante encuentra su próximo destino.</strong></p>
+            </article>
+        </section>
+        <section> <!-- En esta sección indicamos que se espera que haya en el evento de la feria, donde se utiliza listas de descripción. -->
+            <article>
+                <h2>Lo que encontrarás.</h2>
+                <dl>
+                    <dt><strong> Zonas de destinos internacionales:</strong></dt>
+                    <dd>Descubre los rincones más expectaculares del planeta, presentado por representantes oficiales de cada país.</dd>
+                    <dt><strong>Zona de turismo nacional:</strong></dt>
+                    <dd>Conoce la riqueza cultural, natural y gastrónomica de España.</dd>
+                    <dt><strong>Área de experienciencias:</strong></dt>
+                    <dd>Vive simuladores de vuelo, degustaciones gastron+omicas, y exposiciones interactivas.</dd>
+                    <dt><strong>Espacio profesional</strong></dt>
+                    <dd>Encuentros, presentaciones de productos y networking para empresas del sector.</dd>
+                    <dt><strong>Zona de ofertas:</strong></dt>
+                    <dd>Promociones exclusivas para reservar tu viajes directamente en la feria.</dd>
+                </dl>
+            </article>
+        </section>
+        <section>
+            <article class="resalta"> <!-- En esta sección indicamos como registrarse úniendolo al enlace de registro, que es donde se encuentra el formulario, además de tener un atributo para cambiar su diseño con scc. -->
+                <h2> ¿cómo participar?</h2>
+                <ol>
+                    <li>Registrate en línea en la seccion de <a href="Registro.html">Contacto</a></li> <!-- Las etiquetas de a son para incluir los enlaces y con estas podremos incluir los enlaces tanto para navegar dentro de la plataforma y enlaces externos -->
+                    <li>Recibe tu pase digital gratuito por correo.</li>
+                    <li>¡Presentate en la feria y disfruta de todas las actividades!</li>
+                </ol>
+            </article>
+        </section>
+        <section><!-- Esta sección mostramos algunas imágenes donde se visualiza la experiencia de la página. Cada imagen tiene respectivamente la fuente de donde se saco. -->
+            <article>
+                <h2>Vive la experiencia en imágenes</h2>
+                <figure>
+                    <img src="imagenes/Exposicion 1.jpg" alt="Stand de las empresas de viaje y sus visitantes"/>
+                    <figcaption>Fuente <a href="https://www.istockphoto.com/es/search/2/image-film?page=2&phrase=tradeshow" target="_blank">iStock</a></figcaption>
+                    <img src="imagenes/Charlas.avif" alt="Auditorio donde se realizan charlas"/>
+                    <figcaption>Fuente <a href="https://www.istockphoto.com/es/search/2/image-film?page=2&phrase=tradeshow" target="_blank">iStock</a></figcaption>
+                    <img src="imagenes/bec.jpg" alt="Lugar de encuentro">
+                    <figcaption>Autor:<a href="https://commons.wikimedia.org/wiki/File:Baracaldo_-_Bilbao_Exhibition_Center_%28BEC%29_04.jpg" target="_blank">Zaratemán</a></figcaption>
+                </figure>
+                
+                <p>¡Te esperamos en la Feria Internacional de viajes 2025, donde cada destino empieza con un sueño!</p>
+                <button id="botonSaludo">Haz clic para recibir un mensaje</button>
+            </article>
+
+        </section><!-- En esta sección se indica que es una página de prueba ya que será una web pública y agrego enlace donde se puede ver páginas oficiales que tenga información. -->
+        <section class="enlaces">
+            <h4>Plataforma de prueba. Puedes conseguir información oficial del Turismo en España en el siguiente enlace <a href="https://www.spain.info/es/" target="_blank"> Turismo en España.</a></h4>
+        </section>
+    </main>
+   <footer>
+            <a href="#titulo">Inicio de página</a>
+            <p> No olvides realizar tu registro en <a href="Registro.html">Registro</a></p>
+            <p>© 2025 Feria Internacional de Viajes | Diseñado por Laura Casafus</p>
+            <p> Página de prueba</p>
+            <p>Fecha y hora actual: <span id="fechaActual"></span></p>
+        </footer>
+          <script src="funciones.js"></script>
+</body>
+</html>

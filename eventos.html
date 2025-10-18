@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos de la feria de viajes</title><!-- Aquí se mosntrará las fechas que se dará esta feria, todas siendo ficticias, con una programación detallada hecha con etiquetas de tabla. -->
+    <link rel="stylesheet" href="estilos.css"/>
+</head>
+<body>
+    <header id="titulo">
+        <h1>Eventos que encontraras en la feria.</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="destinos.html">Destinos</a></li>
+            <li><a href="eventos.html">Eventos</a></li>
+            <li><a href="ofertas.html">Ofertas</a></li>
+            <li><a href="Registro.html">Registro</a></li>
+        </ul>
+    </nav>
+   <main>
+    <section>
+        <article>
+            <h2>Vive tres días llenos de experiencias</h2>
+            <p>La Feria Internacional de Viajes 2025 te invita a disfrutar de <strong>charlas, talleres, presentaciones culturales y actividades interactivas</strong> que harán de tu visita una experiencia inolvidable.</p>
+            <ul>
+                <li><strong>Fechas:</strong>10 al 12 de noviembre de 2025</li>
+                <li><strong>Lugar</strong>Bilbao Exhibition Centre (BEC)</li>
+            </ul>
+        </article>
+    </section><!-- En esta sección se indica detalles de la programación que tendrá el evento y tendrá un atriburo para darse un diseño de estilo css. La idea es que se vean tipo folletos, unos al lado del otro. -->
+    <section class="container" id="programa">
+        <article class="oferta">
+        <h2>Programa destacados</h2>
+        <h3>Día 1 – Inspiración para viajar</h3>
+        <ul>
+            <li>Inauguración oficial y bienvenida a los visitantes</li>
+            <li>Conferencia: “Tendencias del turismo 2025”</li>
+            <li>Exhibición cultural de países invitados</li>
+        </ul>
+        </article>
+        <article class="oferta">
+            <h3>Día 2 – Experiencias y sostenibilidad</h3>
+            <ul>
+                <li>Taller: “Cómo viajar cuidando el planeta”</li>
+                <li>Taller: “Cómo viajar cuidando el planeta”</li>
+                <li>Taller: “Cómo viajar cuidando el planeta”</li>
+            </ul>
+        </article>
+        <article class="oferta">
+            <h3>Día 3 – Ofertas y premios</h3>
+            <ul>
+                <li>Networking profesional para empresas</li>
+                <li>Sorteos de viajes y experiencias</li>
+                <li>Clausura musical</li>
+            </ul>
+        </article>
+    </section>
+    <section class="resalta">
+    <h2>Programación</h2>
+    <table>
+  <thead>
+    <tr>
+      <th>Día</th>
+      <th>Hora</th>
+      <th>Actividad</th>
+      <th>Ubicación</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Día 1 – 10 Nov</td>
+      <td>10:00 – 11:00</td>
+      <td>Inauguración oficial</td>
+      <td>Auditorio principal</td>
+    </tr>
+    <tr>
+      <td>Día 1 – 10 Nov</td>
+      <td>11:30 – 13:00</td>
+      <td>Conferencia: “Tendencias del turismo 2025”</td>
+      <td>Sala A</td>
+    </tr>
+    <tr>
+      <td>Día 1 – 10 Nov</td>
+      <td>14:00 – 16:00</td>
+      <td>Exhibición cultural</td>
+      <td>Pabellón internacional</td>
+    </tr>
+    <tr>
+      <td>Día 2 – 11 Nov</td>
+      <td>10:00 – 12:00</td>
+      <td>Taller: “Cómo viajar cuidando el planeta”</td>
+      <td>Sala B</td>
+    </tr>
+    <tr>
+      <td>Día 2 – 11 Nov</td>
+      <td>12:30 – 14:00</td>
+      <td>Degustaciones gastronómicas</td>
+      <td>Zona experiencias</td>
+    </tr>
+    <tr>
+      <td>Día 2 – 11 Nov</td>
+      <td>15:00 – 17:00</td>
+      <td>Panel destinos emergentes</td>
+      <td>Auditorio principal</td>
+    </tr>
+    <tr>
+      <td>Día 3 – 12 Nov</td>
+      <td>10:00 – 12:00</td>
+      <td>Networking profesional</td>
+      <td>Sala C</td>
+    </tr>
+    <tr>
+      <td>Día 3 – 12 Nov</td>
+      <td>12:30 – 14:00</td>
+      <td>Sorteos de viajes y premios</td>
+      <td>Escenario principal</td>
+    </tr>
+    <tr>
+      <td>Día 3 – 12 Nov</td>
+      <td>16:00 – 18:00</td>
+      <td>Clausura musical</td>
+      <td>Pabellón central</td>
+    </tr>
+  </tbody>
+</table>
+<p>Filtra actividades por día:</p>
+<button class="filtroDia" data-dia="Día 1">Día 1</button>
+<button class="filtroDia" data-dia="Día 2">Día 2</button>
+<button class="filtroDia" data-dia="Día 3">Día 3</button>
+<button id="mostrarTodos">Mostrar todos</button>
+    </section>
+    <section>
+        <article>
+        <h2>Actividades especiales</h2>
+        <ul>
+            <li>Zona de realidad virtual: viaja por el mundo sin moverte de Bilbao</li>
+            <li>Photocall de destinos</li>
+            <li>Sorteos y regalos para los asistentes</li>
+        </ul>
+        </article>
+        <article>
+            <h3>Pasos para planificar tu viaje ideal</h3>
+            <ol>
+                <li>Elegir el destino que más te inspire.</li>
+                <li>Revisar ofertas y paquetes disponibles.</li>
+                <li>Preparar itinerario y actividades.</li>
+            </ol>
+        </article>
+    </section>
+     <section class="enlaces">
+            <h4>Plataforma de prueba. Puedes conseguir información acerca del Turismo responsable, así como concejos de viaje en el siguiente enlace: <a href="https://turismo.euskadi.eus/es/euskadibasquecountry-turismoresponsable/" target="_blank"> Turismo responsable.</a></h4>
+        </section>
+   </main>
+       <footer>
+        <a href="#titulo">Ir al comienzo</a>
+        <p> No olvides realizar tu registro en <a href="Registro.html">Registro</a></p>
+            <p>© 2025 Feria Internacional de Viajes | Diseñado por Laura Casafus</p>
+            <p> Página de prueba</p>
+            <p>Fecha y hora actual: <span id="fechaActual"></span></p>
+       </footer>
+</body>
+<script src="funciones.js"></script>
+</html>

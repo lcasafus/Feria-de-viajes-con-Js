@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title> <!-- Este va a ser el formulario para el registro, que está preparado para enviarse por email. -->
+    <link rel="stylesheet" href="estilos.css"/>
+</head>
+<body>
+    <header id="titulo">
+        <h1>¡Regístrate y asegura tu lugar en la feria!</h1>
+        <h2>Acceso gratuito, promociones exclusivas y contenido especial solo para visitantes registrados.</h2>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="destinos.html">Destinos</a></li>
+            <li><a href="eventos.html">Eventos</a></li>
+            <li><a href="ofertas.html">Ofertas</a></li>
+            <li><a href="Registro.html">Registro</a></li>
+        </ul>
+
+    </nav>
+    <main>
+        <section>
+            <h2>💡 Beneficios de registrarte</h2>
+           <ol>
+            <li>><strong>Entrada gratuita</strong>al Bilbao Exhibition Centre durante los tres días del evento.</li>
+            <li>><strong>Guía digital del visitante</strong>con mapa, programación de eventos y lista de destinos.</li>
+            <li>><strong>Acceso a ofertas exclusivas</strong>y promociones solo para visitantes registrados.</li>
+            <li>><strong>Participación en sorteos</strong>y actividades especiales de la feria.</li>
+           </ol>
+           <p>🌟 ¡Todo esto solo con completar tu registro online!</p>
+        </section>
+        <section class="formulario">
+            <form action="mailto:" method="post">
+                <label for="Nombre">Nombre completo</label>
+                <input type="text" id="Nombre" name="nombre"><br>
+                <label for="Email">Correo electrónico</label>
+                <input type="email" id="Email" name="email"><br>
+                <label>Teléfono (opcional)</label>
+                <input type="text"><br>
+                <label>Tipo de visitante</label><br>
+                <input type="radio" id="viajero" name="tipo_visitante" value="Viajero" required>
+                <label for="viajero">Viajero</label><br>
+                <input type="radio" id="agencia" name="tipo_visitante" value="Agencia o profesional del turismo">
+                <label for="agencia">Agencia o profesional del turismo</label><br>
+                <input type="radio" id="prensa" name="tipo_visitante" value="Prensa / medios">
+                <label for="prensa">Prensa / medios</label><br>
+                <button type="submit">Registrarme</button>
+                <button type="reset">Eliminar datos</button>
+
+            </form>
+        </section>
+        <section>
+            <h2>Sección de incentivos</h2>
+            <ul>
+                <li>Sorteos de viajes y experiencias especiales para los primeros 500 registrados.</li>
+                <li>Acceso prioritario a talleres y conferencias.</li>
+                <li>Descargas gratuitas de guías y mapas digitales de destinos.</li>
+            </ul>
+        </section>
+         <section class="enlaces">
+            <h4>Plataforma de prueba. Puedes conseguir información oficial acerca de Feria internacional de turismo en el siguiente enlace: <a href="https://www.ifema.es/fitur" target="_blank"> Fitur</a></h4>
+        </section>
+
+    </main>
+            <footer>
+            <a href="#titulo">Ir al comienzo</a>
+            <p> No olvides realizar tu registro en <a href="Registro.html">Registro</a></p>
+            <p>© 2025 Feria Internacional de Viajes | Diseñado por Laura Casafus</p>
+            <p> Página de prueba</p>
+            <p>Fecha y hora actual: <span id="fechaActual"></span></p>
+        </footer>
+        <script src="funciones.js"></script>
+</body>
+</html>
