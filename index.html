@@ -4,12 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Feria internacional de viajes 2025</title> <!-- Esta primera página indicará qué es la feria internacional de viaje, cuándo será y una breve introducción a las demás páginas. -->
+    <link rel="alternate" type="application/rsstxml" title="Feria de viajes Internacional" href="feed.xml/feed.xml"/>
+    <link rel="stylesheet" href="estilos/estilos.css"/>
     <link rel="stylesheet" href="estilos/estilos.css"/>
 </head>
 <body>
     <header id="titulo">
         <h1>Feria internacional de viajes 2025</h1>
         <h2> ¡Explora el mundo sin límites en la Feria Internaciona de Viajes 2025</h2>
+        <a href="feed.xml/feed.xml"><img src="imagenes/rss.png" class="rss"/></a>
     </header>
     <nav> <!-- En esta etiqueta podremos crear nuestro menú que nos permitirá viajar entre las diferentes páginas del sitio web. -->
         <ul>
@@ -17,7 +20,7 @@
             <li><a href="destinos.html">Destinos</a></li>
             <li><a href="eventos.html">Eventos</a></li>
             <li><a href="ofertas.html">Ofertas</a></li>
-            <li><a href="registro.html">Registro</a></li>
+            <li><a href="Registro.html">Registro</a></li>
         </ul>
     </nav>
     <main>
@@ -67,7 +70,7 @@
             <article class="resalta"> <!-- En esta sección indicamos como registrarse úniendolo al enlace de registro, que es donde se encuentra el formulario, además de tener un atributo para cambiar su diseño con scc. -->
                 <h2> ¿cómo participar?</h2>
                 <ol>
-                    <li>Registrate en línea en la seccion de <a href="registro.html">Contacto</a></li> <!-- Las etiquetas de a son para incluir los enlaces y con estas podremos incluir los enlaces tanto para navegar dentro de la plataforma y enlaces externos -->
+                    <li>Registrate en línea en la seccion de <a href="Registro.html">Contacto</a></li> <!-- Las etiquetas de a son para incluir los enlaces y con estas podremos incluir los enlaces tanto para navegar dentro de la plataforma y enlaces externos -->
                     <li>Recibe tu pase digital gratuito por correo.</li>
                     <li>¡Presentate en la feria y disfruta de todas las actividades!</li>
                 </ol>
@@ -96,15 +99,12 @@
     </main>
    <footer>
             <a href="#titulo">Inicio de página</a>
-            <p> No olvides realizar tu registro en <a href="registro.html">Registro</a></p>
+            <p> No olvides realizar tu registro en <a href="Registro.html">Registro</a></p>
             <p>© 2025 Feria Internacional de Viajes | Diseñado por Laura Casafus</p>
             <p> Página de prueba</p>
             <p>Fecha y hora actual: <span id="fechaActual"></span></p>
+            <a href="feed.xml/feed.xml"><img src="imagenes/rss.png" class="rss"/></a>
         </footer>
           <script src="funciones/funciones.js"></script>
 </body>
-
 </html>
-
-
-
