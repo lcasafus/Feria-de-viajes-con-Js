@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+	<channel>
+		<title>Feria de viajes internacional.</title>
+		<link>https://lcasafus.github.io/Feria-de-viajes-con-Js/destinos.html</link>
+		<description>Conoce las publicaciones recientes acerca de la feria internacional de viajes, donde podrás seguir paso a paso las publicaciones recientes e información importante.</description>
+		<item>
+			<title>Ofertas de la feria de  black friday</title>
+			<link>https://lcasafus.github.io/Feria-de-viajes-con-Js/ofertas.html</link>
+			<description>Encuentra las super ofertas a las que puedes acceder en este black friday.</description>
+			<pubDate>wed, 11 nov 2025 20:16:25 GMT</pubDate>
+
+		</item>
+		<item>
+			<title>Participar en la feria internacional de viajes Online</title>
+			<link>https://lcasafus.github.io/Feria-de-viajes-con-Js/eventos.html</link>
+			<description>No te pierdas la feria internacional de viajes en Bilbao uniendote a nosotros a nuestros en vivos, donde mostraremos todo lo que sucede en está gran feria, que podrás visualizar por medio de alguna de nuestras diferentes redes sociales</description>
+			<pubDate>Fri, 14 Nov 2025 14:10:40 GMT</pubDate>
+		</item>
+	</channel>
+</rss>
