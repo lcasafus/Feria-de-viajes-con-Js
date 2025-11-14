@@ -155,3 +155,8 @@ figcaption a{
     text-decoration: none;
     color: #e48951
 }
+.rss{
+    width: 10%;
+    text-align: right;
+    margin: 2px;
+}
